@@ -1,0 +1,5 @@
+build/
+dist/
+django_compressor_postcss.egg-info
+*.pyc
+README.rst
