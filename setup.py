@@ -9,9 +9,9 @@ def file_content(fname):
 
 dist = setup(
     name='django-compressor-postcss',
-    version='0.8',
+    version='0.8.2',
     description='PostCSS support for django-compressor',
-    long_description=file_content('docs/README.rst'),
+    long_description=file_content('README.rst'),
     author='Johan Hanssen Seferidis',
     author_email='manossef@gmail.com',
     url='https://github.com/pithikos/django-compressor-postcss',
