@@ -1,8 +1,13 @@
+.. raw:: html
+
+   <!-- copied directly from postcss's README file -->
+
 PostCSS for django-compressor
 =============================
 
 This module will let you use PostCSS as a filter with django-compressor.
-You can use any postcss plugin you wish (assuming it is installed).
+You can use any postcss plugin you wish (assuming the plugin is
+installed).
 
 Installation
 ------------
