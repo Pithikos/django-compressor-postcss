@@ -18,7 +18,7 @@ dist = setup(
     license='MIT',
 
     classifiers=[
-        'Intended Audience :: Developers'
+        'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Framework :: Django',
         'Topic :: Software Development :: Libraries',
