@@ -27,7 +27,7 @@ dist = setup(
     # Package
     packages=['compressor_postcss'],
     install_requires=[
-        'django'
+        'django',
         'django-compressor',
     ],
     data_files=[('', ['LICENSE', 'README.md'])],
