@@ -20,6 +20,11 @@ dist = setup(
     classifiers=[
         'Intended Audience :: Developers'
         'License :: OSI Approved :: MIT License',
+        'Framework :: Django',
+        'Topic :: Software Development :: Libraries',
+        'Environment :: Web Environment',
+        'Environment :: Plugins'
+
     ],
     keywords='django-compressor django postcss post-processing css ' +
              'web-development autoprefixer',
