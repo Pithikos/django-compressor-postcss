@@ -1,5 +1,11 @@
 PostCSS for django-compressor
 ============================
+
+<!-- copied directly from postcss's README file -->
+<img align="right" width="95" height="95"
+     title="Philosopher’s stone, logo of PostCSS"
+     src="http://postcss.github.io/postcss/logo.svg">
+
 This module will let you use PostCSS as a filter with django-compressor. You can
 use any postcss plugin you wish (assuming the plugin is installed).
 
