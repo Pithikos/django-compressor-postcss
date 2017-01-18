@@ -9,7 +9,6 @@ DEFAULT_PLUGINS = ()
 
 class PostCSSFilter(CompilerFilter):
 
-
     def plugins_as_args(plugins):
         """
         Take the plugins iterable and fix it so it can be used with
@@ -17,7 +16,6 @@ class PostCSSFilter(CompilerFilter):
         """
         args = ''.join(map(lambda plugin: '--use %s ' % plugin, plugins))
         return args
-
 
     command = "{binary} {args} {plugins} -o {outfile} {infile}"
     options = (

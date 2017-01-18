@@ -1,7 +1,6 @@
 from setuptools import setup
 import os
 import io
-import sys
 
 
 def file_content(fname):
@@ -22,7 +21,7 @@ dist = setup(
         'Intended Audience :: Developers'
         'License :: OSI Approved :: MIT License',
     ],
-    keywords='django-compressor django postcss post-processing css '+\
+    keywords='django-compressor django postcss post-processing css ' +
              'web-development autoprefixer',
 
     # Package
