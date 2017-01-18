@@ -1,6 +1,7 @@
 PostCSS for django-compressor
 ============================
-This module will let you use PostCSS as a filter with django-compressor. You can use any postcss plugin you wish (assuming it is installed).
+This module will let you use PostCSS as a filter with django-compressor. You can
+use any postcss plugin you wish (assuming the plugin is installed).
 
 Installation
 ------------
@@ -9,8 +10,8 @@ Install this package:
 
     pip install django-compressor-postcss
 
-You also need to install the postcss tool itself and depending on what plugins you plan to use, you should install those
-manually.
+You also need to install the postcss tool itself and depending on what plugins
+you plan to use, you should install those manually.
 
 Example:
 
